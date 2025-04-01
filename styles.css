@@ -30,9 +30,13 @@ p {
 }
 
 #list {
-    list-style : none;
+    list-style: none;
     background-color : #f2f0f0;
-    border-color: black;
+  }
+
+#list li {
+    margin: 0 20px; /*расстояние между пунктами по ширине*/
+    display: inline;
 }
 
 a:hover {
