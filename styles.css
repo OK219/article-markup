@@ -32,6 +32,15 @@ p {
     line-height:33px;
 }
 
+#list {
+    list-style : none;
+    background-color : #f2f0f0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
