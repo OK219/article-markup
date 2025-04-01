@@ -1,15 +1,12 @@
 /* Тут пиши основные стили */
 
-* {
-    width: 700px;
-}
-
 code {
     font-family: "Courier New", monospace;
+    box-sizing: border-box;
 }
 
 h1 {
-    font-family: LucidaGrande-Bold;
+    font-family:  sans-serif;
     font-size:42px;
     color:rgba(0,0,0,0.84);
     text-align:left;
@@ -17,7 +14,7 @@ h1 {
 }
 
 h2 {
-    font-family:LucidaGrande-Bold;
+    font-family: sans-serif;
     font-size:34px;
     color:rgba(0,0,0,0.84);
     text-align:left;
@@ -25,7 +22,7 @@ h2 {
 }
 
 p {
-    font-family:Georgia;
+    font-family:serif;
     font-size:21px;
     color:rgba(0,0,0,0.84);
     text-align:left;
@@ -39,6 +36,45 @@ p {
 
 a:hover {
     text-decoration: underline;
+}
+
+.Block {
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Header{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.Header #FirstHeader{
+    margin-top: 55px;
+}
+.Header #SecondHeader{
+    margin-top: 55px;
+}
+.Header #ThirdHeader{
+    margin-top: 56px;
+}
+
+.FirstPara and .SecondPara{
+    margin-bottom: 43px;
+}
+.SecondPara and .ThirdPara{
+    margin-top: 37px;
+}
+.ThirdPara{
+    margin-bottom: 95px;
 }
 
 @media (max-width: 800px) {
