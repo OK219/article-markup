@@ -32,10 +32,20 @@ p {
 #list {
     list-style : none;
     background-color : #f2f0f0;
+    border-color: black;
 }
 
 a:hover {
     text-decoration: underline;
+    cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png"), auto;
+}
+
+h3 {
+    font-family:sans-serif;
+    font-size:29px;
+    color:#3f4540;
+    text-align:left;
+    line-height:39px;
 }
 
 .Block {
